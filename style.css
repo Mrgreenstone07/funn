@@ -1,0 +1,66 @@
+body{
+  background-color: yellowgreen;
+  color: whitesmoke;
+
+}
+
+.guess h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.me, .him {
+    display: inline-block;
+    vertical-align: top; /* Align containers at the top */
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.me img, .him img {
+    height: 200px;
+    width: 200px;
+}
+
+.him {
+    margin-left: 25px; 
+    
+}
+
+
+.me {
+    background-color: lightblue;
+    padding: 10px;
+    margin-left: 150px; 
+}
+
+
+.him {
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+
+.meresult{
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.meresult img{
+    height: 300px;
+    width: 300px;
+
+}
+
+
+
+
+.himresult{
+    margin-left: 25%;
+    margin-top: 150px;
+}
+
+.himresult img{
+    height: 300px;
+    width: 300px;
+}
